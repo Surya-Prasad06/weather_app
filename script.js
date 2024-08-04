@@ -1,7 +1,7 @@
 const weatherform = document.querySelector(".weatherform");
 const cityinput = document.querySelector(".cityinput");
 const card = document.querySelector(".card");
-const apikey = "a6cfdcaa19417e33b04f69da0e82771a"; // Fixed the typo in the API key
+const apikey = "your_api_key; // Fixed the typo in the API key
 
 weatherform.addEventListener("submit", async event => {
     event.preventDefault();
